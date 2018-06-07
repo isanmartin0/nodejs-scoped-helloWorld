@@ -1,0 +1,49 @@
+{
+  "name": "@keedio/keedio-nodejs-scoped-helloworld",
+  "version": "1.0.0",
+  "description": "Scoped Hello World on Node js",
+  "main": "server/api.js",
+  "scripts": {
+    "start": "scripts/run.sh",
+    "test": "jest",
+    "script_prueba": "node server/app.js"
+  },
+  "jest": {
+    "testResultsProcessor": "jest-sonar-reporter",
+    "verbose": true,
+    "collectCoverage": true,
+    "testRegex": "mytests/.*\\.(js|jsx)$",
+    "collectCoverageFrom": [
+      "server/**/*.{js,jsx}",
+      "!**/coverage/**",
+      "!**/node_modules/**",
+      "!**/.vscode/**",
+      "!**/.git/**"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "functions": 20
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isanmartin0/nodejs-scoped-helloWorld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isanmartin0/nodejs-scoped-helloWorld/issues"
+  },
+  "homepage": "https://github.com/isanmartin0/nodejs-scoped-helloWorld#readme",
+  "dependencies": {
+    "@google/chatbase": "^1.1.1",
+    "express": "^4.16.3",
+    "jade": "^1.11.0",
+    "joi": "^13.1.0"
+  },
+  "devDependencies": {
+    "proxyquire": "^1.8.0"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "@keedioA/keedio-nodejs-scoped-helloworld",
+  "name": "@keediob/keedio-nodejs-scoped-helloworld",
   "version": "1.0.1",
   "description": "Scoped Hello World on Node js",
   "main": "server/api.js",

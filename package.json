@@ -1,6 +1,6 @@
 {
-  "name": "@jcfernandez/keedio-nodejs-scoped-helloworld",
-  "version": "1.0.1",
+  "name": "@keedio/keedio-nodejs-scoped-helloworld",
+  "version": "1.0.2",
   "description": "Scoped Hello World on Node js",
   "main": "server/api.js",
   "scripts": {

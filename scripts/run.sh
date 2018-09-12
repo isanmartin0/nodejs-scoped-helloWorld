@@ -1,2 +1,2 @@
 echo "Lanzando script ..."
-node ../server/app.js
+node server/app.js
